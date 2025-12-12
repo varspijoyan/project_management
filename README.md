@@ -2,28 +2,25 @@
 
 ## TOOLS
 
-* For Backend
+1. For Backend
+    - Node JS
+    - Typescript 
+    - Knex
+    - MySQL
+    - Express JS
+    - Decorators
+    - Nodemailer
+    - Jsonwebtoke
+    - bcrypt
 
-- Node JS
-- Typescript 
-- Knex
-- MySQL
-- Express JS
-- Decorators
-- Nodemailer
-- Jsonwebtoke
-- bcrypt
+2. For Frontend
+    - React JS
+    - Typescript
+    - React Router Dom
+    - Redux toolkit
+    - i18next
+    - react-otp-input
+    - MUI components
 
-* For Frontend
-
-- React JS
-- Typescript
-- React Router Dom
-- Redux toolkit
-- i18next
-- react-otp-input
-- MUI components
-
-* To run both 
-
-- Concurrently
+3. To run both 
+    - Concurrently
