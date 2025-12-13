@@ -6,13 +6,12 @@ export function Table(tableName: string) {
   };
 }
 
-export function Column(columnName: string) {
+export function Column() {
   return function (target: any, propertyKey: string) {
     const columns =
       Reflect.getMetadata("table:columns", target.constructor) || [];
     columns.push({
       propertyKey,
-      columnName: columnName || propertyKey,
     });
 
     Reflect.defineMetadata("table:columns", columns, target.constructor);
