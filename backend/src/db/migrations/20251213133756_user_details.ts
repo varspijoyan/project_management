@@ -29,6 +29,7 @@ export async function up(knex: Knex): Promise<void> {
       table.string("password").notNullable();
       table.string("image");
       table.string("otp").notNullable();
+      table.string("phone_number").notNullable();
       table.boolean("is_verified").defaultTo(false);
       table.boolean("is_active").defaultTo(false);
       table.boolean("is_updated").defaultTo(false);
