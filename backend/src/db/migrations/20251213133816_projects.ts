@@ -27,8 +27,8 @@ export async function up(knex: Knex): Promise<void> {
           process.env.TABLE_FOR_AUTHORIZED_USERS || "authorized_users_table"
         )
         .onDelete("CASCADE");
-      table.string("projects_title").notNullable();
-      table.string("projects_description").notNullable();
+      table.string("project_title").notNullable();
+      table.string("project_description").notNullable();
       table.string("image");
       table.timestamp("start_date").notNullable();
       table.timestamp("end_date").notNullable();
