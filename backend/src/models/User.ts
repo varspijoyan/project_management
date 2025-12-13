@@ -9,6 +9,10 @@ export default class User extends BaseModel {
 
   @Column()
   @Required()
+  roles_id!: number;
+
+  @Column()
+  @Required()
   first_name!: string;
 
   @Column()
